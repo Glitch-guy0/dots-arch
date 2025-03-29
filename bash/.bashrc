@@ -8,6 +8,7 @@
 alias ls='ls --color=auto -p'
 alias la='ls -Alh'
 alias grep='grep --color=auto'
+alias stow='stow -d ~/dots'
 #################################################################
 
 # Alias
@@ -19,4 +20,4 @@ eval "$(fzf --bash)"
 # Zoxide
 eval "$(zoxide init bash)"
 # starship
-eval "$(starship init bash)
+eval "$(starship init bash)"
