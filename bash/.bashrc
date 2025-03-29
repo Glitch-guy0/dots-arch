@@ -13,7 +13,7 @@ alias stow='stow -d ~/dots'
 
 # Alias
 alias compose=docker-compose
-alias cd='z'
+alias cd=zoxide
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
