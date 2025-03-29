@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+WALL_DIR=$HOME/.local/share/wallpapers
+# get random wallpaper with it's pull path
+WALL="$WALL_DIR/$(ls $WALL_DIR | shuf -n 1)"
+
+# command to change wallpaper using swww
+swww img $WALL --transition-type grow --transition-pos 0.8,1.0  --transition-bezier .3,.89,.8,.33
