@@ -117,7 +117,7 @@ function cdi() {
 #   line editing (`vim` and `emacs`), we check if either them is enabled.
 # - Completions don't work on `dumb` terminals.
 if [[ ${BASH_VERSINFO[0]:-0} -eq 4 && ${BASH_VERSINFO[1]:-0} -ge 4 || ${BASH_VERSINFO[0]:-0} -ge 5 ]] &&
-    [[ :"${SHELLOPTS}": =~ :(vi|emacs): && ${TERM} != 'dumb' ]]; then
+    [[ :"${SHELLOPTS}": =~ :(vim|emacs): && ${TERM} != 'dumb' ]]; then
     # Use `printf '\e[5n'` to redraw line after fzf closes.
     \builtin bind '"\e[0n": redraw-current-line' &>/dev/null
 

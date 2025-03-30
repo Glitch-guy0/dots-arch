@@ -3,7 +3,7 @@
 MODE=$(cat /tmp/display_mode 2>/dev/null || echo "extend")
 
 if [ "$MODE" = "extend" ]; then
-    hyprctl keyword monitor eDP-1,mirror,HDMI-A-1
+    hyprctl keyword monitor eDP-1,preferred,auto,1,mirror,HDMI-A-1
     echo "mirror" > /tmp/display_mode
 elif [ "$MODE" = "mirror" ]; then
     hyprctl keyword monitor eDP-1,disable
