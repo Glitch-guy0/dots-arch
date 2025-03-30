@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Local Binaries
+export PATH="$PATH:$HOME/.local/bin"
+
 alias ls='ls --color=auto -p'
 alias la='ls -Alh'
 alias grep='grep --color=auto'
