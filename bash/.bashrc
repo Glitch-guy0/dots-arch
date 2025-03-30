@@ -17,12 +17,13 @@ alias stow='stow -d ~/dots'
 # Alias
 alias compose=docker-compose
 
-### Sources
-# Zoxide
-source $HOME/.bash-utils/zoxide.bash
-
 ### Terminal Executions
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 # starship
 eval "$(starship init bash)"
+
+
+### Sources
+# Zoxide
+source $HOME/.bash-utils/zoxide.bash
