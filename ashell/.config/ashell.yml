@@ -31,13 +31,13 @@ position: Top # optional, default Top
 modules:
   # The modules that will be displayed on the left side of the status bar
   left:
+    - SystemInfo
     - Workspaces
   # The modules that will be displayed in the center of the status bar
   center:
     - WindowTitle
   # The modules that will be displayed on the right side of the status bar
   right:
-    - SystemInfo
     # This modules will form a group sharing the same element in the status bar
     - [Clock, Privacy, Settings]
 # App launcher command, it will be used to open the launcher,
@@ -80,7 +80,7 @@ system:
 # Clock module configuration
 clock:
   # clock format see: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
-  format: "%a %d %b %R" # optional, default: %a %d %b %R
+  format: "%R %a %d %b" # optional, default: %a %d %b %R
 # Media player module configuration
 mediaPlayer:
   maxTitleLength: 100 # optional, default 100
