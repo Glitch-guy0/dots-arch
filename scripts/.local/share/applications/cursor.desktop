@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Cursor
+Comment=Code Editing. Redefined.
+GenericName=Text Editor
+Exec=/home/glitch/.local/share/cursor/Cursor.AppImage
+Icon=/home/glitch/.local/share/cursor/cursor.png
+Type=Application
+StartupNotify=false
+StartupWMClass=Cursor
+Categories=TextEditor;Development;IDE;
+MimeType=application/x-code-workspace;
+Keywords=vscode;
