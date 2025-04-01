@@ -12,6 +12,7 @@ alias ls='ls --color=auto -p'
 alias la='ls -Alh'
 alias grep='grep --color=auto'
 alias stow='stow -d ~/dots'
+alias open='nautilus'
 #################################################################
 
 # Alias
