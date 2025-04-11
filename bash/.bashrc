@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # Local Binaries
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.local/sbin"
 
 alias ls='ls --color=auto -p'
 alias la='ls -Alh'

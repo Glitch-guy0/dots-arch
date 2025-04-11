@@ -16,7 +16,7 @@ elif [ "$MODE" = "disable main" ]; then
     echo "disable secondary" > /tmp/display_mode
     notify-send $(cat /tmp/display_mode)
 else
-    hyprctl keyword monitor HDMI-A-1,highres,enable
+    hyprctl keyword monitor HDMI-A-1,highres,0x0,enable
     echo "extend" > /tmp/display_mode
     notify-send $(cat /tmp/display_mode)
 fi

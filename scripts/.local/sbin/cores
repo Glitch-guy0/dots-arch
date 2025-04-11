@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "/sys/devices/system/cpu/cpu[3-7]*/online"
+
+for x in /sys/devices/system/cpu/cpu[3-7]*/online; do
+  echo "disabling $x"
+  echo 0 > "$x"
+done
