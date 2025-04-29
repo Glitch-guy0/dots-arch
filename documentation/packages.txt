@@ -1,84 +1,86 @@
-alsa-utils 1.2.13-2
-auto-cpufreq 2.5.0-1
-base 3-2
-base-devel 1-2
-bluetui 0.6-1
-bluez 5.80-2
-brave-bin 1:1.76.74-1
-brightnessctl 0.5.1-3
-btop 1.4.0-5
-btrfs-assistant 2.1.1-1
-cachyos-keyring 20240331-1
-cachyos-mirrorlist 18-1
-cachyos-v3-mirrorlist 18-1
-cachyos-v4-mirrorlist 6-1
-caffeine 2.9.14-1
-dmenu 5.3-3
-docker 1:28.0.4-1
-docker-compose 2.34.0-1
-dosfstools 4.2-5
-dunst 1.12.2-1
-efibootmgr 18-3
-fwupd 2.0.7-1
-fzf 0.60.3-1
-gdm 48.0-1
-git 2.49.0-1
-gnome-icon-theme 3.12.0-7
-gnome-shell-extension-vitals-git 71.0.0.r0.g66b99a7-1
-gnome-shell-pomodoro 0.26.0-1
-hyprland 0.48.1-1
-i3-wm 4.24-1
-i3blocks 1.5-4
-i3lock 2.15-2
-i3status 2.15-1
-intel-gpu-tools 2.0-1
-intel-media-driver 25.1.4-1
-intel-ucode 20250211-1
-kitty 0.40.1-1
-libva-utils 2.22.0-1.1
-linux-cachyos 6.14.1-2
-linux-clear-headers-bin 6.2.11.1297-1
-linux-firmware 20250311.b69d4b74-3
-linux-headers 6.13.8.arch1-1
-linux-zen 6.13.8.zen1-1
-man-db 2.13.0-1
-mesa-utils 9.0.0-5.1
-nano 8.3-1
-nautilus 48.0-1
-networkmanager 1.52.0-1
-obsidian 1.8.9-2
-polkit-gnome 0.105-11
-postman-bin 11.37.1-1
-powertop 2.15-2
-pulseaudio 17.0+r43+g3e2bb8a1e-1
-pulseaudio-bluetooth 17.0+r43+g3e2bb8a1e-1
-python-pip 25.0.1-1
-reflector 2023-3
-rsync 3.4.1-2
-snapper 0.12.1-2
-sof-firmware 2025.01-1
-starship 1.22.1-1
-stow 2.4.1-1
-swayosd-git 0.2.0.r0.gb3c78fc-1
-swww 0.9.5-2
-syncthing 1.29.3-1
-thermald 2.5.9-1
-tldr 3.3.0-2
-tlp 1.8.0-1
-tlpui 2:1.8.0-1
-tree 2.2.1-1
-ttf-jetbrains-mono 2.304-2
-ufw 0.36.2-5
-vim 9.1.1236-1
-visual-studio-code-bin 1.98.2-1
-vulkan-intel 1:25.0.3-2
-wl-clipboard 1:2.2.1-2
-wtf 20230906-1
-x86_energy_perf_policy 6.14-1
-xdg-desktop-portal-gnome 48.0-2
-xdg-user-dirs-gtk 0.14-1
-xf86-video-vesa 2.6.0-2
-xorg 21.1.16
-yay 12.4.2-1
-yay-debug 12.4.2-1
-zoxide 0.9.7-1
+alsa-utils
+auto-cpufreq
+base
+base-devel
+bluetui
+bluez
+bottles
+brave-bin
+brightnessctl
+btop
+btrfs-assistant
+cachyos-keyring
+cachyos-mirrorlist
+cachyos-v3-mirrorlist
+cachyos-v4-mirrorlist
+caffeine
+dmenu
+docker
+docker-compose
+dosfstools
+dunst
+efibootmgr
+fwupd
+fzf
+gdm
+git
+gnome-icon-theme
+gnome-shell-extension-vitals-git
+gnome-shell-pomodoro
+hyprland
+i3-wm
+i3blocks
+i3lock
+i3status
+intel-gpu-tools
+intel-media-driver
+intel-ucode
+kitty
+lazydocker
+libva-utils
+linux-cachyos
+linux-clear-headers-bin
+linux-firmware
+linux-headers
+linux-zen
+man-db
+mesa-utils
+nano
+nautilus
+networkmanager
+obsidian
+polkit-gnome
+postman-bin
+powertop
+pulseaudio
+pulseaudio-bluetooth
+python-pip
+reflector
+rsync
+snapper
+sof-firmware
+starship
+stow
+swayosd-git
+swww
+syncthing
+thermald
+tldr
+tlp
+tlpui
+tree
+ttf-jetbrains-mono
+ufw
+vim
+visual-studio-code-bin
+vulkan-intel
+wl-clipboard
+wtf
+x86_energy_perf_policy
+xdg-desktop-portal-gnome
+xdg-user-dirs-gtk
+xf86-video-vesa
+xorg
+yay
+yay-debug
+zoxide
